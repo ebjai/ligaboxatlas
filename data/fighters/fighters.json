@@ -1,0 +1,35 @@
+[
+  {
+    "id": "terence-crawford-1987",
+    "fullName": "Terence Crawford",
+    "nickName": "Bud",
+    "division": "Welterweight",
+    "record": { "wins": 40, "losses": 0, "draws": 0, "kos": 31 },
+    "stance": "switch",
+    "nationality": "USA",
+    "height": "5'8\"",
+    "reach": "74 in",
+    "age": 37,
+    "isChampion": true,
+    "orgs": ["WBO", "WBC", "WBA", "IBF"],
+    "photo": "https://example-cdn/boxers/terence-crawford.jpg",
+    "socials": { "instagram": "https://instagram.com/terencecrawford" },
+    "lastUpdated": "2025-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "naoya-inoue-1993",
+    "fullName": "Naoya Inoue",
+    "nickName": "The Monster",
+    "division": "Super Bantamweight",
+    "record": { "wins": 27, "losses": 0, "draws": 0, "kos": 24 },
+    "stance": "orthodox",
+    "nationality": "Japan",
+    "height": "5'5\"",
+    "reach": "67 in",
+    "age": 32,
+    "isChampion": true,
+    "orgs": ["WBC","WBA","IBF","WBO"],
+    "photo": "https://example-cdn/boxers/naoya-inoue.jpg",
+    "lastUpdated": "2025-10-22T00:00:00.000Z"
+  }
+]
