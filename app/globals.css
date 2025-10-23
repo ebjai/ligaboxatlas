@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root { --brand: #d4af37; }
+html, body { height: 100%; }
+.prose.prose-invert :where(a):not(:where([class~="not-prose"] *)) {
+  color: var(--brand);
+  text-decoration: none;
+}
+.prose.prose-invert :where(a:hover):not(:where([class~="not-prose"] *)) {
+  text-decoration: underline;
+}
