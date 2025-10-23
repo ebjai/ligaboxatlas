@@ -11,7 +11,8 @@
     "fighters:schedule": "node server/src/jobs/scheduleRosterUpdate.mjs",
     "verify:real": "node scripts/preflight.mjs",
     "health:ci": "bash scripts/ci-health.sh",
-    "prod:smoke": "node scripts/prodSmoke.mjs"
+    "prod:smoke": "node scripts/prodSmoke.mjs",          
+    "ingest:news": "node server/src/ingestNews.mjs"
   },
   "dependencies": {
     "autoprefixer": "^10.4.20",
@@ -35,3 +36,4 @@
     "typescript": "^5.4.5"
   }
 }
+
