@@ -1,7 +1,7 @@
 import "./globals.css";
 import type { ReactNode } from "react";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 export const metadata = {
   title: "Liga de Boxeo | LDB.AI",
@@ -20,7 +20,7 @@ export const metadata = {
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <html lang="en" className="h-full bg-black">
+    <html lang="en">
       <body className="min-h-full flex flex-col">
         <Header />
         {children}
